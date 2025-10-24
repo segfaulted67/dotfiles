@@ -6,9 +6,9 @@ This repository contains my personal dotfiles and configuration for a customized
 * Screenshot
 Here's some snapshot:
 
-[[file:screenshots/terminal.png][Ghostty Setup]]
+[[file:screenshots/terminal.png][]]
 [[file:screenshots/firefox.png][]]
-[[file:screenshots/zathura.png][Zathura(rose-pine theme)]]
+[[file:screenshots/zathura.png][]]
 [[file:screenshots/wallpaper.png][]]
 
 * Zsh Setup
