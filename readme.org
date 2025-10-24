@@ -1,0 +1,30 @@
+#+TITLE: My Dotfiles
+
+* Overview
+This repository contains my personal dotfiles and configuration for a customized terminal.
+
+* Screenshot
+Here's some snapshot:
+
+[[file:screenshots/terminal.png][Ghostty Setup]]
+[[file:screenshots/firefox.png][]]
+[[file:screenshots/zathura.png][Zathura(rose-pine theme)]]
+[[file:screenshots/wallpaper.png][]]
+
+* Zsh Setup
+- Custom prompt with git signs (branch, changes, clean status)
+- Plugins included:
+  - zsh-syntax-highlighting
+  - zsh-autosuggestions
+  - zsh-git-prompt
+
+
+
+* Installation
+To use these dotfiles:
+
+#+BEGIN_SRC bash
+git clone --recursive https://codeberg.org/segfaulted67/dotfiles.git
+#+END_SRC
+
+
