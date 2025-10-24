@@ -11,14 +11,6 @@ Here's some snapshot:
 [[file:screenshots/zathura.png][]]
 [[file:screenshots/wallpaper.png][]]
 
-* Zsh Setup
-- Custom prompt with git signs (branch, changes, clean status)
-- Plugins included:
-  - zsh-syntax-highlighting
-  - zsh-autosuggestions
-  - zsh-git-prompt
-
-
 
 * Installation
 To use these dotfiles:
