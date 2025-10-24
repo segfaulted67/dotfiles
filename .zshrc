@@ -23,12 +23,17 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
 autoload -U colors && colors
-autoload -U vcs_info
-precmd() { vcs_info }
-setopt prompt_subst
+source ~/.zsh/zsh-git-prompt/zshrc.sh
 # PS1="%B%{$fg[red]%}∲%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}%{$reset_color%}%b "
-PS1="%B%{$fg[red]%}%{$fg[magenta]%}%~%{$fg[red]%} »%{$reset_color%}%b "
-# PROMPT='%F{blue}%n@%m %F{green}%~ %F{red}$vcs_info_msg_0_ %F{cyan}➜ %f '
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+# PS1="%B%{$fg[red]%}%{$fg[magenta]%}%~%{$fg[red]%} »%{$reset_color%}%b "
+setopt PROMPT_SUBST
 
+# --- Your custom prompt ---
+PS1='%B%{$fg[red]%}%{$fg[magenta]%}%~%{$fg[red]%} $(git_super_status) »%{$reset_color%}%b '
+
+
+source /home/larry/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+alias vim=nvim
 fastfetch
