@@ -30,7 +30,7 @@ setopt PROMPT_SUBST
 
 # --- Your custom prompt ---
 PS1='%B%{$fg[red]%}%{$fg[magenta]%}%~%{$fg[red]%} $(git_super_status) %{$fg[red]%}»%{$reset_color%}%b '
-
+eval "$(zoxide init zsh)"
 
 source /home/larry/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
