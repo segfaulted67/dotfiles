@@ -16,7 +16,10 @@ Here's some snapshot:
 To use these dotfiles:
 
 #+BEGIN_SRC bash
+# for codeberg
 git clone --recursive https://codeberg.org/segfaulted67/dotfiles.git
+# for github
+git clone --recursive https://github.com/segfaulted67/dotfiles.git
 #+END_SRC
 
 
