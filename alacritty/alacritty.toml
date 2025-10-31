@@ -1,0 +1,19 @@
+[general]
+  # import = ["rose-pine.toml"]
+  import = ["moonfly.toml"]
+
+
+[window]
+  opacity = 0.7
+  blur = true
+
+[font]
+  normal = { family = "CaskaydiaCove NF", style = "Regular" }
+  bold = { family = "CaskaydiaCove NF", style = "Bold" }
+  italic = {family = "CaskaydiaCove NF", style = "Italic" }
+  size = 7.5
+  builtin_box_drawing = true
+
+
+[terminal]
+  shell = "/bin/zsh"
